@@ -1,0 +1,13 @@
+bitly:
+  token: xxxx
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://db:3306/urlshortener
+    username: root
+    password: ousmane2022&&!
+
+  jpa:
+    hibernate:
+      ddlAuto: update
