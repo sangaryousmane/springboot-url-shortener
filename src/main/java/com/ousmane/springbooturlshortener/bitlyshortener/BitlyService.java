@@ -35,7 +35,7 @@ public class BitlyService {
             log.info("Complete shortening");
             UrlData data = UrlData.builder()
                     .longUrl(longUrl)
-                    .shortenUrl(link)
+                    .shortUrl(link)
                     .build();
             bitlyRepo.save(data);
         } catch (IOException e) {

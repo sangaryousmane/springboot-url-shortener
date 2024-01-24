@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    image: url-shortener:latest
+    image: ousmane1999/url-shortener:latest
     ports:
       - "8090:8090"
     environment:

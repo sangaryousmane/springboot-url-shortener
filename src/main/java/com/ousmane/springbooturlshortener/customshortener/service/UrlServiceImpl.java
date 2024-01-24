@@ -44,7 +44,7 @@ public class UrlServiceImpl implements UrlShortenerService {
 
     private LocalDateTime getExpirationDate(String expirationDate, LocalDateTime creationDate) {
         if (StringUtils.isBlank(expirationDate)){
-            return creationDate.plusSeconds(60);
+            return creationDate.plusDays(7);
         }
         return LocalDateTime.parse(expirationDate);
     }

@@ -4,7 +4,7 @@ bitly:
 
 spring:
   datasource:
-    url: jdbc:mysql://db:3306/urlshortener
+    url: jdbc:mysql://localhost:3306/urlshortener
     username: root
     password: ousmane2022&&!
 

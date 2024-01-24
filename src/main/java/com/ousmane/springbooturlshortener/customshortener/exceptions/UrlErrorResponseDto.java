@@ -1,9 +1,14 @@
 package com.ousmane.springbooturlshortener.customshortener.exceptions;
 
+import lombok.Builder;
+
+@Builder
 public class UrlErrorResponseDto {
 
     private String status;
     private String error;
+
+    public UrlErrorResponseDto(){}
 
     public UrlErrorResponseDto(String status, String error) {
         this.status = status;

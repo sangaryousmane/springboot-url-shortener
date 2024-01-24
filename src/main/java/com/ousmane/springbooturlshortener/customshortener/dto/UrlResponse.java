@@ -1,8 +1,12 @@
 package com.ousmane.springbooturlshortener.customshortener.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+@Builder
 public class UrlResponse {
 
     private String longUrl;
