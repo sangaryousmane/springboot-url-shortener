@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: springboot-url-shortener
-          image: ousmane1999/ultimate-cicd:1
+          image: ousmane1999/ultimate-cicd:replaceImageTag
           ports:
             - containerPort: 8089
